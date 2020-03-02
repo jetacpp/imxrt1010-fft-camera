@@ -1,0 +1,3 @@
+/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/CMakeFiles/evkmimxrt1010_dev_video_virtual_camera_lite_bm.dir
+/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/CMakeFiles/edit_cache.dir

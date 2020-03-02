@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="evkmimxrt1010_dev_video_virtual_camera_lite_bm">
+				<Option output="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/evkmimxrt1010_dev_video_virtual_camera_lite_bm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/board"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/codec"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/i2c"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/lists"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/serial_manager"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/uart"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/device"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/osa"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/device/include"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/device/source"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/device/source/ehci"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/include"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/phy"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/utilities"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/xip"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="evkmimxrt1010_dev_video_virtual_camera_lite_bm/fast">
+				<Option output="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/evkmimxrt1010_dev_video_virtual_camera_lite_bm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/board"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/codec"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/i2c"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/lists"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/serial_manager"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/uart"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/device"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/osa"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/device/include"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/device/source"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/device/source/ehci"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/include"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/phy"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/utilities"/>
+					<Add directory="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/xip"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 evkmimxrt1010_dev_video_virtual_camera_lite_bm/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/arm_common_tables.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/arm_const_structs.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/arm_math.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/cmsis_armcc.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/cmsis_armclang.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/cmsis_armclang_ltm.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/cmsis_compiler.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/cmsis_gcc.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/cmsis_iccarm.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/cmsis_version.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/core_armv81mml.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/core_armv8mbl.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/core_armv8mml.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/core_cm7.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/mpu_armv7.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMSIS/mpu_armv8.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/board/board.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/board/board.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/board/clock_config.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/board/clock_config.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/board/peripherals.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/board/peripherals.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/board/pin_mux.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/board/pin_mux.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/codec/fsl_codec_adapter.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/codec/fsl_codec_adapter.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/codec/fsl_codec_common.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/codec/fsl_codec_common.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/codec/fsl_codec_i2c.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/codec/fsl_codec_i2c.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/codec/fsl_wm8960.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/codec/fsl_wm8960.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/i2c/i2c.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/i2c/lpi2c_adapter.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/lists/generic_list.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/lists/generic_list.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/serial_manager/serial_manager.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/serial_manager/serial_manager.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/serial_manager/serial_port_internal.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/serial_manager/serial_port_uart.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/serial_manager/serial_port_uart.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/uart/lpuart_adapter.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/component/uart/uart.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/device/MIMXRT1011.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/device/MIMXRT1011_features.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/device/fsl_device_registers.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/device/system_MIMXRT1011.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/device/system_MIMXRT1011.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_cache.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_cache.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_clock.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_clock.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_common.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_common.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_dmamux.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_dmamux.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_edma.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_edma.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_gpio.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_gpio.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_iomuxc.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_lpi2c.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_lpi2c.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_lpuart.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_lpuart.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_sai.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_sai.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_sai_edma.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/drivers/fsl_sai_edma.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/osa/usb_osa.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/osa/usb_osa_bm.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/osa/usb_osa_bm.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/app_sai.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/app_sai.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/fft.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/fft_camera.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/fft_camera.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/main.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/semihost_hardfault.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/usb_device_ch9.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/usb_device_ch9.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/usb_device_config.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/usb_device_descriptor.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/usb_device_descriptor.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/usb_device_video.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/usb_device_video.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/video_camera.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/video_camera.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/video_data.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/video_data.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/virtual_camera.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/source/virtual_camera.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/startup/startup_mimxrt1011.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/device/include/usb_device.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/device/source/ehci/usb_device_ehci.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/device/source/ehci/usb_device_ehci.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/device/source/usb_device_dci.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/device/source/usb_device_dci.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/include/usb.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/include/usb_misc.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/include/usb_spec.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/phy/usb_phy.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/usb/phy/usb_phy.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/utilities/fsl_assert.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/utilities/fsl_debug_console.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/utilities/fsl_debug_console.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/utilities/fsl_debug_console_conf.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/utilities/fsl_str.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/utilities/fsl_str.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/xip/evkmimxrt1010_flexspi_nor_config.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/xip/evkmimxrt1010_flexspi_nor_config.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/xip/fsl_flexspi_nor_boot.c">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/xip/fsl_flexspi_nor_boot.h">
+			<Option target="evkmimxrt1010_dev_video_virtual_camera_lite_bm"/>
+		</Unit>
+		<Unit filename="/tmp/evkmimxrt1010_dev_video_virtual_camera_lite_bm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
